@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3A690EE9-A2FD-4389-9E78-AE45A36B373B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Orbit</RootNamespace>
+    <AssemblyName>Orbit</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Style\Fonts\OpenSansSemibold.ttf" />
+    <Content Include="Style\Images\orbita_ui-kit.psd" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Home.html" />
+    <Content Include="JavaScript.js" />
+    <Content Include="StyleSheet.css" />
+    <Content Include="Style\Images\BlackPhone.png" />
+    <Content Include="Style\Images\BorderIm2.png" />
+    <Content Include="Style\Images\BordImg.png" />
+    <Content Include="Style\Images\Ely.png" />
+    <Content Include="Style\Images\FlowerBlack.png" />
+    <Content Include="Style\Images\Fluoer.png" />
+    <Content Include="Style\Images\IconEmail.png" />
+    <Content Include="Style\Images\Klen.png" />
+    <Content Include="Style\Images\KlenBlack.png" />
+    <Content Include="Style\Images\Logotyp.png" />
+    <Content Include="Style\Images\Mail.png" />
+    <Content Include="Style\Images\orbita_index %28menu%29.jpg" />
+    <Content Include="Style\Images\orbita_ui-kit.jpg" />
+    <Content Include="Style\Images\RedheadPipe.png" />
+    <Content Include="Style\Images\Snowflake.png" />
+    <Content Include="Style\Images\SnowflakeBlack.png" />
+    <Content Include="Style\Images\Группа 3 копия 2.png" />
+    <Content Include="Style\Images\кавычки.png" />
+    <Content Include="Style\Images\кавычки2.png" />
+    <Content Include="Style\Images\Прямоугольник, скругл. углы 26.png" />
+    <Content Include="Style\Images\Прямоугольник, скругл. углы 43 копия 5.png" />
+    <Content Include="Style\Images\Слой 19.png" />
+    <Content Include="Style\Images\Слой 20.png" />
+    <Content Include="Style\Images\Слой 21.png" />
+    <Content Include="Style\Images\Слой 22.png" />
+    <Content Include="Style\Images\Слой 23.png" />
+    <Content Include="Style\Images\Слой 24.png" />
+    <Content Include="Style\Images\Слой 25.png" />
+    <Content Include="Style\Images\Слой 26.png" />
+    <Content Include="Style\Images\Слой 27.png" />
+    <Content Include="Style\Images\Слой 28.png" />
+    <Content Include="Style\Images\стрелка.png" />
+    <Content Include="Style\Images\Фигура 11 kопировать копия 2.png" />
+    <Content Include="Style\Images\Фигура 11 kопировать копия.png" />
+    <Content Include="Style\Images\Фигура 13 kопировать 2 копия 2 kопировать.png" />
+    <Content Include="Style\Images\Фигура 13 kопировать 7 копия kопировать.png" />
+    <Content Include="Style\Images\Фигура 13 kопировать 7 копия.png" />
+    <Content Include="Style\Images\Фигура 13 копия kопировать.png" />
+    <Content Include="Style\Images\Фигура 13 копия.png" />
+    <Content Include="Style\Images\Фигура 14 копия 4.png" />
+    <Content Include="Style\Images\Фигура 14 копия 5.png" />
+    <Content Include="Style\Images\Фигура 15 копия 4.png" />
+    <Content Include="Style\Images\Фигура 15.png" />
+    <Content Include="Style\Images\Фигура 4 kопировать.png" />
+    <Content Include="Style\Images\Фигура 4.png" />
+    <Content Include="Style\Images\Фигура 6 kопировать.png" />
+    <Content Include="Style\Images\Фигура 6.png" />
+    <Content Include="Style\Images\Фигура 7 kопировать.png" />
+    <Content Include="Style\Images\Фигура 7.png" />
+    <Content Include="Style\Images\Фигура 8 kопировать.png" />
+    <Content Include="Style\Images\Фигура 8.png" />
+    <Content Include="Style\Images\флаг.png" />
+    <Content Include="Style\Images\флаг2.png" />
+    <Content Include="Style\Images\флаг3.png" />
+    <Content Include="Style\Images\фото.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 7 копия kопировать.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 7 копия.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 2 kопировать.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 2.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 3 kопировать.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 3.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 4 kопировать.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 4.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 5 kопировать.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 5.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия kопировать.png" />
+    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия.png" />
+    <Content Include="Style\Images\Эллипс 12 копия 2 kопировать.png" />
+    <Content Include="Style\StyleSheet.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60247</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60247/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
