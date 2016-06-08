@@ -67,26 +67,26 @@
 
 
 
-    .menu_head li {
-        margin-top: 8px;
-        margin-left: 30px; /* Отступ слева */
-        padding-left: 10px;
-        float: left;
-        font-size: 13px;
-        font-weight: 100;
-        font-family: OpenSans;
-    }
+.menu_head li {
+    margin-top: 8px;
+    margin-left: 30px; /* Отступ слева */
+    padding-left: 10px;
+    float: left;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: OpenSans;
+}
 
-    .menu_head :first-child {
-        list-style-type: none;
-        margin-left: 0px;
-        padding-left: 0px;
-    }
+.menu_head :first-child {
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
 
-    .menu_head li a {
-        color: #ffffff;
-        text-decoration: none;
-    }
+.menu_head li a {
+    color: #ffffff;
+    text-decoration: none;
+}
 
 .input {
     height: 20px;
@@ -166,11 +166,11 @@
     position: relative;
 }
 
-    .menu_tour a {
-        margin-left: 80px;
-        color: black;
-        text-decoration: none;
-    }
+.menu_tour a {
+    margin-left: 80px;
+    color: black;
+    text-decoration: none;
+}
 
 .breadth_content a:first-child {
     margin-left: 0px;
@@ -204,14 +204,14 @@
     text-align: center;
 }
 
-    .div_body h1 {
-        font-family: OpenSans;
-        font-size: 40px;
-        font-weight: 100;
-        margin-bottom: 0px;
-        display: block;
-        margin-top: 20px;
-    }
+.div_body h1 {
+    font-family: OpenSans;
+    font-size: 40px;
+    font-weight: 100;
+    margin-bottom: 0px;
+    display: block;
+    margin-top: 20px;
+}
 
 .holidays {
     float: left;
@@ -221,32 +221,32 @@
     text-align: left;
 }
 
-    .holidays a {
-        display: block;
-        color: black;
-        font-size: 20px;
-        margin-top: 25px;
-    }
+.holidays a {
+    display: block;
+    color: black;
+    font-size: 20px;
+    margin-top: 25px;
+}
 
-        .holidays a img {
-            float: left;
-            margin-right: 20px;
-        }
+.holidays a img {
+    float: left;
+    margin-right: 20px;
+}
 
-    .holidays h2 {
-        margin-bottom: 0px;
-    }
+.holidays h2 {
+    margin-bottom: 0px;
+}
 
 .MainСountries {
     margin-left: 90px;
 }
 
-    .MainСountries :last-child {
-        color: #265DA7;
-        font-size: 14px;
-        font-weight: bold;
-        display: flex;
-    }
+.MainСountries :last-child {
+    color: #265DA7;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+}
 
 .rest {
     margin-top: 30px;
@@ -262,10 +262,10 @@
     height: 200px;
 }
 
-    .rest a {
-        float: none;
-        margin-left: 0px;
-    }
+.rest a {
+    float: none;
+    margin-left: 0px;
+}
 
 
 
@@ -350,28 +350,28 @@
     padding-left: 0px;
 }
 
-    .list_advantages li:before {
-        content: counter(item); /* Добавляем к числам скобку*/
-        counter-increment: item; /* Задаём имя счетчика */
-    }
+.list_advantages li:before {
+    content: counter(item); /* Добавляем к числам скобку*/
+    counter-increment: item; /* Задаём имя счетчика */
+}
 
-    .list_advantages li {
-        margin-top: 20px;
-        color: #0E459A;
-        font-size: 20px;
-    }
+.list_advantages li {
+    margin-top: 20px;
+    color: #0E459A;
+    font-size: 20px;
+}
 
-        .list_advantages li p {
-            margin-left: 20px;
-            display: inline-block;
-            color: #000000;
-            font-size: 14px;
-            font-weight: 100;
-        }
+.list_advantages li p {
+    margin-left: 20px;
+    display: inline-block;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 100;
+}
 
-    .list_advantages :first-child {
-        margin-top: 0px;
-    }
+.list_advantages :first-child {
+    margin-top: 0px;
+}
 
 .HeadAdvantages {
     margin-top: 50px;
@@ -409,10 +409,10 @@
     color: #11479D;
 }
 
-    .all_news_link img {
-        margin-bottom: -10px;
-        margin-left: 0px;
-    }
+.all_news_link img {
+    margin-bottom: -10px;
+    margin-left: 0px;
+}
 
 .Window_news :last-child {
     color: #11479D;
@@ -429,10 +429,10 @@
     border-bottom: 1px solid #D9DCE1;
 }
 
-    .foto div img {
-        margin-top: 5px;
-        margin-left: 5px;
-    }
+.foto div img {
+    margin-top: 5px;
+    margin-left: 5px;
+}
 
 .three_photos {
     width: 410px;
@@ -442,8 +442,8 @@
     width: 200px;
 }
 
-    .six_photos img {
-    }
+.six_photos img {
+}
 
 .ArrowFotoL {
     margin-top: 220px;
@@ -505,11 +505,11 @@
     margin-right: 110px;
 }
 
-    .cuntry a {
-        display: block;
-        margin-top: 10px;
-        color: black;
-    }
+.cuntry a {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
 
 
 .Llers {
@@ -550,19 +550,19 @@
     float: left;
 }
 
-    .Count a {
-        font-weight: bold;
-        font-family: OpenSans;
-        font-size: 15px;
-        color: black;
-        text-decoration: none;
-        display: flex;
-        margin-top: 5px;
-    }
+.Count a {
+    font-weight: bold;
+    font-family: OpenSans;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    display: flex;
+    margin-top: 5px;
+}
 
-        .Count a img {
-            margin-right: 10px;
-        }
+.Count a img {
+    margin-right: 10px;
+}
 
 
 .Recreation {
@@ -578,13 +578,13 @@
     margin-right: 50px;
 }
 
-    .lincRecreation a {
-        color: black;
-        font-family: OpenSans;
-        font-size: 14px;
-        text-decoration: none;
-        border-bottom: solid black 1px;
-    }
+.lincRecreation a {
+    color: black;
+    font-family: OpenSans;
+    font-size: 14px;
+    text-decoration: none;
+    border-bottom: solid black 1px;
+}
 
 .modalboxask {
     text-decoration: none;
@@ -617,13 +617,13 @@
     width: 400px;
 }
 
-    .PhoneP p {
-        display: inline;
-        font-weight: 100;
-        font-size: 12px;
-        color: #74858F;
-        margin-left: 20px;
-    }
+.PhoneP p {
+    display: inline;
+    font-weight: 100;
+    font-size: 12px;
+    color: #74858F;
+    margin-left: 20px;
+}
 
 
 
@@ -657,15 +657,15 @@
     margin-left: -350px;
 }
 
-    .Countries a {
-        color: black;
-        padding-bottom: 10px;
-        display: block;
-    }
+.Countries a {
+    color: black;
+    padding-bottom: 10px;
+    display: block;
+}
 
-    .Countries :last-child {
-        color: #11479D;
-    }
+.Countries :last-child {
+    color: #11479D;
+}
 
 .Bestsellers {
     width: 150px;
@@ -673,11 +673,11 @@
     margin-left: -200px;
 }
 
-    .Bestsellers a {
-        color: black;
-        padding-bottom: 10px;
-        display: block;
-    }
+.Bestsellers a {
+    color: black;
+    padding-bottom: 10px;
+    display: block;
+}
 
 .SocialNetwork {
     margin-top: -160px;
@@ -687,10 +687,10 @@
     text-align: left;
 }
 
-    .SocialNetwork img {
-        width: 22px;
-        height: 22px;
-    }
+.SocialNetwork img {
+    width: 22px;
+    height: 22px;
+}
 
 .communication {
     margin-right: 130px;
@@ -700,11 +700,11 @@
     text-align: left;
 }
 
-    .communication div {
-        font-weight: bold;
-        font-size: 20px;
-        margin-top: 20px;
-    }
+.communication div {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
 
 .futerbloc_width {
     width: 400px;
@@ -721,8 +721,8 @@
     text-align: center;
 }
 
-    .endblok span {
-        font-family: OpenSans;
-        color: #6A7C89;
-        font-size: 12px;
-    }
+.endblok span {
+    font-family: OpenSans;
+    color: #6A7C89;
+    font-size: 12px;
+}
