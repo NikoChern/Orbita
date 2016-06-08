@@ -9,7 +9,6 @@
 
 
 #MainMenu {
-    display: flex;
     height: 40px;
     color: #ffffff;
 }
@@ -92,8 +91,8 @@
     height: 20px;
     border-radius: 5px;
     margin-top: 5px;
-    margin-left: 620px;
-    position: absolute;
+    float:right;
+    border:none;
 }
 
 .contacts div {
