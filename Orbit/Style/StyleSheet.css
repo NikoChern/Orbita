@@ -38,24 +38,19 @@
 #holid {
     margin-left: 100px;
     padding-right: 80px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
-#Atur{
-    display:block;
-    width:40px;
+#Atur {
+    display: block;
+    width: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 @font-face {
-    font-family: OpenSansSemibold; /* Имя шрифта */
-    src: url(fonts/OpenSansSemibold.ttf); /* Путь к файлу со шрифтом */
-}
-
-@font-face {
-    font-family: open-sans_semibold; /* Имя шрифта */
-    src: url(fonts/open-sans_semibold.ttf); /* Путь к файлу со шрифтом */
+    font-family: OpenSans; /* Имя шрифта */
+    src: url(fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
 }
 
 .ColorMainMenu {
@@ -79,7 +74,7 @@
         float: left;
         font-size: 13px;
         font-weight: 100;
-        font-family: open sans;
+        font-family: OpenSans;
     }
 
     .menu_head :first-child {
@@ -120,7 +115,7 @@
 
 .contacts div b {
     display: inline-block;
-    font-family: open sans;
+    font-family: OpenSans;
 }
 
 .contacts a {
@@ -162,7 +157,7 @@
     background-color: #F1F3F5;
     margin-top: 20px;
     text-transform: uppercase;
-    font-family: open sans;
+    font-family: OpenSans;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -210,7 +205,7 @@
 }
 
     .div_body h1 {
-        font-family: open sans;
+        font-family: OpenSans;
         font-size: 40px;
         font-weight: 100;
         margin-bottom: 0px;
@@ -220,10 +215,10 @@
 
 .holidays {
     float: left;
-    font-family: open sans;
+    font-family: OpenSans;
     width: 400px;
     height: 400px;
-    text-align:left;
+    text-align: left;
 }
 
     .holidays a {
@@ -242,16 +237,16 @@
         margin-bottom: 0px;
     }
 
-.MainСountries{
+.MainСountries {
     margin-left: 90px;
 }
 
-.MainСountries :last-child{
-    color: #265DA7;
-    font-size: 14px;
-    font-weight:bold;
-    display:flex;
-}
+    .MainСountries :last-child {
+        color: #265DA7;
+        font-size: 14px;
+        font-weight: bold;
+        display: flex;
+    }
 
 .rest {
     margin-top: 30px;
@@ -290,7 +285,7 @@
 }
 
 .news {
-    font-family: open sans;
+    font-family: OpenSans;
     font-weight: bold;
     font-size: 14px;
 }
@@ -322,7 +317,7 @@
     border-right: none;
     background-color: #F1F3F5;
     margin-top: 20px;
-    font-family: open sans;
+    font-family: OpenSans;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -462,7 +457,7 @@
 
 .Children_rest {
     display: inline-block;
-    font-family: 'Open Sans';
+    font-family: OpenSans;
     margin-top: 50px;
 }
 
@@ -480,7 +475,7 @@
 }
 
 .Children_rest a {
-    font-family: 'Open Sans';
+    font-family: OpenSans;
     color: #ffffff;
     font-size: 14px;
 }
@@ -495,7 +490,7 @@
     border-right: none;
     background-color: #F1F3F5;
     margin-top: 150px;
-    font-family: open sans;
+    font-family: OpenSans;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 14px;
@@ -527,7 +522,7 @@
     height: 20px;
     width: 260px;
     color: #74858F;
-    border-radius:1px; 
+    border-radius: 1px;
 }
 
 .Llers a {
@@ -552,44 +547,44 @@
     box-sizing: border-box;
     text-align: left;
     margin-top: 30px;
-    float:left;
+    float: left;
 }
 
     .Count a {
         font-weight: bold;
-        font-family: 'Open Sans';
+        font-family: OpenSans;
         font-size: 15px;
         color: black;
         text-decoration: none;
-        display:flex;
+        display: flex;
         margin-top: 5px;
     }
 
-    .Count a img {
-        margin-right: 10px;
-    }
+        .Count a img {
+            margin-right: 10px;
+        }
 
 
 .Recreation {
-    float:left;
+    float: left;
     padding-top: 30px;
     padding-left: 80px;
 }
 
-.lincRecreation{
-    float:left;
+.lincRecreation {
+    float: left;
     width: 120px;
-    text-align:left;
+    text-align: left;
     margin-right: 50px;
 }
 
-.lincRecreation a {
-    color:black;
-    font-family:'Open Sans';
-    font-size: 14px;
-    text-decoration:none;
-    border-bottom: solid black 1px;
-}
+    .lincRecreation a {
+        color: black;
+        font-family: OpenSans;
+        font-size: 14px;
+        text-decoration: none;
+        border-bottom: solid black 1px;
+    }
 
 .modalboxask {
     text-decoration: none;
@@ -682,7 +677,6 @@
         color: black;
         padding-bottom: 10px;
         display: block;
-
     }
 
 .SocialNetwork {
@@ -728,7 +722,7 @@
 }
 
     .endblok span {
-        font-family: 'Open Sans';
+        font-family: OpenSans;
         color: #6A7C89;
         font-size: 12px;
     }

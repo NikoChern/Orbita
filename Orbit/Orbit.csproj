@@ -57,7 +57,6 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Style\Fonts\OpenSansSemibold.ttf" />
     <Content Include="Style\Images\orbita_ui-kit.psd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -69,7 +68,6 @@
   <ItemGroup>
     <Content Include="Home.html" />
     <Content Include="JavaScript.js" />
-    <Content Include="StyleSheet.css" />
     <Content Include="Style\Images\BlackPhone.png" />
     <Content Include="Style\Images\BorderIm2.png" />
     <Content Include="Style\Images\BordImg.png" />
@@ -146,6 +144,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Scripts\" />
+    <Folder Include="Style\Fonts\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
