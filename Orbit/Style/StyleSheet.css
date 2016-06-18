@@ -2,15 +2,34 @@
     margin: 0px;
 }
 
+@font-face {
+    font-family: OpenSans; /* Имя шрифта */
+    src: url(fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSansLight; /* Имя шрифта */
+    src: url(fonts/OpenSansLight.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSansBold; /* Имя шрифта */
+    src: url(fonts/OpenSansBold.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: OpenSansSemibold; /* Имя шрифта */
+    src: url(fonts/OpenSansSemibold.ttf); /* Путь к файлу со шрифтом */
+}
+
 #UpperUnit {
     text-align: center;
 }
 
-
-
 #MainMenu {
-    height: 40px;
     color: #ffffff;
+    overflow: hidden;
+    padding: 5px 0px;
 }
 
 #Logotyp {
@@ -29,9 +48,6 @@
 }
 
 #AllFields {
-    margin-right: 0px;
-    margin-top: -5px;
-    margin-left: 20px;
 }
 
 #holid {
@@ -47,9 +63,10 @@
     margin-bottom: 20px;
 }
 
-@font-face {
-    font-family: OpenSans; /* Имя шрифта */
-    src: url(fonts/OpenSans.ttf); /* Путь к файлу со шрифтом */
+
+.page-width {
+    width: 1350px;
+    margin: auto;
 }
 
 .ColorMainMenu {
@@ -59,21 +76,20 @@
 }
 
 .menu_head {
-    margin-top: 0px;
-    width: 550px;
     padding-left: 0px;
+    overflow: hidden;
+    margin: 0px;
 }
 
 
 
 .menu_head li {
-    margin-top: 8px;
     margin-left: 30px; /* Отступ слева */
     padding-left: 10px;
     float: left;
     font-size: 13px;
     font-weight: 100;
-    font-family: OpenSans;
+    font-family: OpenSansLight;
 }
 
 .menu_head :first-child {
@@ -87,12 +103,15 @@
     text-decoration: none;
 }
 
-.input {
+.search-input {
     height: 20px;
-    border-radius: 5px;
-    margin-top: 5px;
-    float:right;
-    border:none;
+    border-radius: 3px;
+    float: right;
+    border: none;
+    padding-left: 10px;
+    background-image: url('Images/Search.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
 }
 
 .contacts div {
@@ -156,7 +175,7 @@
     background-color: #F1F3F5;
     margin-top: 20px;
     text-transform: uppercase;
-    font-family: OpenSans;
+    font-family: OpenSansBold;
     font-weight: bold;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -166,9 +185,34 @@
 }
 
 .menu_tour a {
-    margin-left: 80px;
+    margin-left: 60px;
     color: black;
     text-decoration: none;
+}
+
+.menu_tour a span.icon {
+    display:inline-block;
+    height:20px;
+    width:10px;
+    background-image: url('Images/Menu-arrows.png');
+    background-position: left -15px;
+    background-repeat:no-repeat;
+}
+
+.menu_tour a:hover{
+    color: #0D469A;
+}
+
+.menu_tour a:hover span.icon {
+    background-position: left 5px;
+}
+
+.menu_tour a:focus{
+    color: #ff0000;
+}
+
+.menu_tour a:focus span.icon {
+    background-position: right -15px;
 }
 
 .breadth_content a:first-child {
@@ -189,6 +233,7 @@
     background-repeat: no-repeat;
     background-position: right;
     border-bottom: 1px solid #D9DCE1;
+    overflow:hidden;
 }
 
 .window_shade {
@@ -197,6 +242,8 @@
     width: 1350px;
     box-shadow: 1px 1px 10px #E7E7E7, -1px -1px 10px #E7E7E7;
     padding-bottom: 30px;
+    display: none;
+    overflow:hidden;
 }
 
 .div_body {
@@ -214,7 +261,7 @@
 
 .holidays {
     float: left;
-    font-family: OpenSans;
+    font-family: OpenSansSemibold;
     width: 400px;
     height: 400px;
     text-align: left;
@@ -223,32 +270,37 @@
 .holidays a {
     display: block;
     color: black;
-    font-size: 20px;
-    margin-top: 25px;
+    font-size: 16px;
+    line-height: 42px;
 }
 
 .holidays a img {
-    float: left;
     margin-right: 20px;
 }
 
+.holidays a span {
+    vertical-align: top;
+}
+
 .holidays h2 {
-    margin-bottom: 0px;
+    font-family: OpenSansBold;
 }
 
 .MainСountries {
     margin-left: 90px;
 }
 
-.MainСountries :last-child {
+a.more {
     color: #265DA7;
     font-size: 14px;
-    font-weight: bold;
-    display: flex;
+    background-image: url("Images/arrow-circle-right.png");
+    background-position: left center;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    margin-left: 25px;
 }
 
 .rest {
-    margin-top: 30px;
     padding-top: 80px;
     padding-bottom: 30px;
     border: 3px solid #40c4c8;
@@ -264,6 +316,8 @@
 .rest a {
     float: none;
     margin-left: 0px;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
 
@@ -287,6 +341,7 @@
     font-family: OpenSans;
     font-weight: bold;
     font-size: 14px;
+    overflow:hidden;
 }
 
 .textnews p {
@@ -315,14 +370,13 @@
     border-left: none;
     border-right: none;
     background-color: #F1F3F5;
-    margin-top: 20px;
-    font-family: OpenSans;
+    font-family: OpenSansSemibold;
     font-weight: bold;
-    padding-top: 20px;
     padding-bottom: 20px;
     font-size: 14px;
     text-align: center;
     position: relative;
+    overflow:hidden;
 }
 
 .breadth_content h2 {
@@ -377,8 +431,15 @@
 }
 
 .Window_news h2 {
-    display: inline-block;
-    margin-top: 0px;
+    background-image: url("images/Redhead_line.png");
+    background-position: left center;
+    background-repeat: repeat-x;
+    text-align: center;
+}
+
+.Window_news h2 span {
+    padding: 0px 10px;
+    background-color: #ffffff;
 }
 
 .wave_left {
@@ -393,8 +454,14 @@
     float: left;
 }
 
-.Window_news a {
+.Window_news div a {
     color: black;
+}
+
+.Window_news a.more {
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 0px;
 }
 
 .Window_news p {
@@ -413,11 +480,116 @@
     margin-left: 0px;
 }
 
-.Window_news :last-child {
+/*.Window_news :last-child {
     color: #11479D;
-}
+}*/
 
 .Photo_report {
+    margin: auto;
+    border-bottom: 1px solid #D9DCE1;
+    overflow: hidden;
+    position: relative;
+}
+
+.Photo_report .arrow,.banners .arrow {
+    width: 90px;
+    position: absolute;
+    top: calc(50% - 30px);
+
+}
+
+.Photo_report .arrow a,.banners .arrow a {
+    display: block;
+}
+
+.Photo_report .arrow.right,.banners .arrow.right {
+    right: 0;
+}
+
+.Photo_report .images {
+    margin: auto;
+    width: 1000px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.to-laft-tp {
+    margin-left: 10px;
+}
+
+.images .col {
+    width: 400px;
+    overflow: hidden;
+}
+
+.images .col > div {
+    width: 200px;
+    height: 150px;
+    box-sizing: border-box;
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+}
+
+.images .col > div.big {
+    width: 400px;
+    height: 300px;
+}
+
+/*.images .col div + div{
+    margin-top: 10px;
+}*/
+
+.images .col.center {
+    width: 200px;
+    margin: auto;
+}
+
+
+.images .col.right {
+    float: right;
+}
+
+.images .col.left {
+    float: left;
+}
+
+.images img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    float: left;
+    border-radius: 2px;
+}
+
+.images div.big {
+    width: 400px;
+    height: 300px;
+}
+
+/*.images .col img + img{
+    margin-left: 10px;
+}*/
+
+.bloc-photo div {
+    float: left;
+    width: 194px;
+    height: 145px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.bloc-photo > div.big {
+    width: 399px;
+    height: 300px;
+}
+
+.bloc-photo {
+    float: left;
+    width: 398px;
 }
 
 .foto {
@@ -489,7 +661,7 @@
     border-right: none;
     background-color: #F1F3F5;
     margin-top: 150px;
-    font-family: OpenSans;
+    font-family: OpenSansSemibold;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 14px;
@@ -522,6 +694,9 @@
     width: 260px;
     color: #74858F;
     border-radius: 1px;
+    border: 1px solid #D6D9DE;
+    border-radius: 2px;
+    padding: 5px 10px;
 }
 
 .Llers a {
@@ -541,7 +716,6 @@
 .Count {
     width: 290px;
     padding-left: 40px;
-    padding-right: 180px;
     border-right: 1px solid #D9DCE1;
     box-sizing: border-box;
     text-align: left;
@@ -555,8 +729,8 @@
     font-size: 15px;
     color: black;
     text-decoration: none;
-    display: flex;
     margin-top: 5px;
+    display: block;
 }
 
 .Count a img {
@@ -579,7 +753,7 @@
 
 .lincRecreation a {
     color: black;
-    font-family: OpenSans;
+    font-family: OpenSansSemibold;
     font-size: 14px;
     text-decoration: none;
     border-bottom: solid black 1px;
@@ -627,15 +801,7 @@
 
 
 .PName {
-    font-weight: bold;
-}
-
-.futerbloc img {
-    position: absolute;
-}
-
-.futerbloc span {
-    margin-left: 50px;
+    font-family: OpenSansBold;
 }
 
 .Lle {
@@ -643,17 +809,16 @@
     margin-right: 210px;
 }
 
-.fut {
+.footer {
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
+    width: 1200px;
+    display: flex;
 }
 
 .Countries {
-    width: 80px;
+    width: 200px;
     text-align: left;
-    padding-bottom: 20px;
-    margin-left: -350px;
 }
 
 .Countries a {
@@ -667,9 +832,8 @@
 }
 
 .Bestsellers {
-    width: 150px;
-    margin-top: -270px;
-    margin-left: -200px;
+    width: 200px;
+    text-align: left;
 }
 
 .Bestsellers a {
@@ -679,10 +843,7 @@
 }
 
 .SocialNetwork {
-    margin-top: -160px;
-    margin-left: 100px;
     width: 300px;
-    margin-bottom: 100px;
     text-align: left;
 }
 
@@ -692,17 +853,16 @@
 }
 
 .communication {
-    margin-right: 130px;
-    margin-top: -308px;
-    margin-left: 480px;
-    width: 240px;
+    width: 400px;
     text-align: left;
+    padding-left: 100px;
 }
 
-.communication div {
+.communication > div {
     font-weight: bold;
     font-size: 20px;
     margin-top: 20px;
+    display: inline-block;
 }
 
 .futerbloc_width {
@@ -718,10 +878,116 @@
 
 .endblok {
     text-align: center;
+    padding: 10px 0px;
 }
 
 .endblok span {
     font-family: OpenSans;
     color: #6A7C89;
     font-size: 12px;
+}
+
+.communication .daysWeek {
+    display: inline;
+    font-size: 12px;
+    color: #6F828E;
+}
+
+.communication .connect-with-us {
+    margin-top: 0px;
+}
+
+.imgbloc {
+    background-repeat: no-repeat;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+.phone {
+    background-image: url('Images/BlackPhone.png');
+}
+
+.email {
+    background-image: url('Images/Mail.png');
+}
+
+.address {
+    background-image: url('Images/Adrop.png');
+}
+
+.big-img {
+    width: 398px;
+    height: 300px;
+    float: left;
+}
+
+.to-laft {
+    float: left;
+}
+
+.to-right {
+    float: right;
+}
+
+.resting-place {
+    color: #ffffff;
+    font-family: OpenSans;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.banners {
+    position: relative;
+    border: 1px solid #D9DCE1;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.banners span {
+    font-family: OpenSansSemibold;
+    margin-top: 30px;
+    display: block;
+}
+
+b {
+    font-family: OpenSansBold;
+}
+
+.banners input {
+}
+
+.banners .bann-rest{
+    margin:auto;
+    overflow:hidden;
+    width: 1100px;
+}
+
+
+.banners .three-ban{
+    float:left;
+    width: 33.33%;
+    box-sizing:border-box;
+    padding: 10px;
+}
+
+.banner1 {
+    background-image: url('Images/banner1.png');
+    background-repeat: no-repeat;
+}
+
+.banner2 {
+    background-image: url('Images/banner2.png');
+    background-repeat: no-repeat;
+}
+
+.banner3 {
+    background-image: url('Images/banner3.png');
+    background-repeat: no-repeat;
+}
+
+.lable{
+    margin-top: -65px;
+    font-family: OpenSansSemibold;
 }

@@ -57,6 +57,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Style\Images\arrow-circle-right.png" />
     <Content Include="Style\Images\orbita_ui-kit.psd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -67,7 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Home.html" />
-    <Content Include="JavaScript.js" />
+    <Content Include="Scripts\Home.js" />
     <Content Include="Style\Images\BlackPhone.png" />
     <Content Include="Style\Images\BorderIm2.png" />
     <Content Include="Style\Images\BordImg.png" />
@@ -84,58 +85,6 @@
     <Content Include="Style\Images\RedheadPipe.png" />
     <Content Include="Style\Images\Snowflake.png" />
     <Content Include="Style\Images\SnowflakeBlack.png" />
-    <Content Include="Style\Images\Группа 3 копия 2.png" />
-    <Content Include="Style\Images\кавычки.png" />
-    <Content Include="Style\Images\кавычки2.png" />
-    <Content Include="Style\Images\Прямоугольник, скругл. углы 26.png" />
-    <Content Include="Style\Images\Прямоугольник, скругл. углы 43 копия 5.png" />
-    <Content Include="Style\Images\Слой 19.png" />
-    <Content Include="Style\Images\Слой 20.png" />
-    <Content Include="Style\Images\Слой 21.png" />
-    <Content Include="Style\Images\Слой 22.png" />
-    <Content Include="Style\Images\Слой 23.png" />
-    <Content Include="Style\Images\Слой 24.png" />
-    <Content Include="Style\Images\Слой 25.png" />
-    <Content Include="Style\Images\Слой 26.png" />
-    <Content Include="Style\Images\Слой 27.png" />
-    <Content Include="Style\Images\Слой 28.png" />
-    <Content Include="Style\Images\стрелка.png" />
-    <Content Include="Style\Images\Фигура 11 kопировать копия 2.png" />
-    <Content Include="Style\Images\Фигура 11 kопировать копия.png" />
-    <Content Include="Style\Images\Фигура 13 kопировать 2 копия 2 kопировать.png" />
-    <Content Include="Style\Images\Фигура 13 kопировать 7 копия kопировать.png" />
-    <Content Include="Style\Images\Фигура 13 kопировать 7 копия.png" />
-    <Content Include="Style\Images\Фигура 13 копия kопировать.png" />
-    <Content Include="Style\Images\Фигура 13 копия.png" />
-    <Content Include="Style\Images\Фигура 14 копия 4.png" />
-    <Content Include="Style\Images\Фигура 14 копия 5.png" />
-    <Content Include="Style\Images\Фигура 15 копия 4.png" />
-    <Content Include="Style\Images\Фигура 15.png" />
-    <Content Include="Style\Images\Фигура 4 kопировать.png" />
-    <Content Include="Style\Images\Фигура 4.png" />
-    <Content Include="Style\Images\Фигура 6 kопировать.png" />
-    <Content Include="Style\Images\Фигура 6.png" />
-    <Content Include="Style\Images\Фигура 7 kопировать.png" />
-    <Content Include="Style\Images\Фигура 7.png" />
-    <Content Include="Style\Images\Фигура 8 kопировать.png" />
-    <Content Include="Style\Images\Фигура 8.png" />
-    <Content Include="Style\Images\флаг.png" />
-    <Content Include="Style\Images\флаг2.png" />
-    <Content Include="Style\Images\флаг3.png" />
-    <Content Include="Style\Images\фото.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 7 копия kопировать.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 7 копия.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 2 kопировать.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 2.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 3 kопировать.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 3.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 4 kопировать.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 4.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 5 kопировать.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия 5.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия kопировать.png" />
-    <Content Include="Style\Images\Эллипс 10 kопировать 8 копия.png" />
-    <Content Include="Style\Images\Эллипс 12 копия 2 kопировать.png" />
     <Content Include="Style\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -143,7 +92,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Scripts\" />
     <Folder Include="Style\Fonts\" />
   </ItemGroup>
   <PropertyGroup>

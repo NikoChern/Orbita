@@ -2,14 +2,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title></title>
+    <script src="Scripts/Home.js"></script>
     <link href="Style/StyleSheet.css" rel="stylesheet" />
 </head>
 <body>
     <div id="UpperUnit">
         <div class="ColorMainMenu">
-            <div class="breadth_content">
+            <div class="page-width">
                 <div id="MainMenu">
-                    <input type="text" placeholder="Поиск по сайту" class="input" />
+                    <input type="text" placeholder="Поиск по сайту" class="search-input" />
                     <ul type="disc" class="menu_head">
                         <li><a href="#">Главная</a></li>
                         <li><a href="#">Туристам</a></li>
@@ -22,7 +23,7 @@
         </div>
 
         <div class="contacts">
-            <div class="breadth_content">
+            <div class="page-width">
                 <div id="Logotyp">
                     <a href="#">
                         <img id="logo" class="img" src="Style/images/Logotyp.png" />
@@ -57,18 +58,36 @@
                 </div>
             </div>
         </div>
-        <div class="menu_tour">
-            <div class="breadth_content">
-                <a href="#">Новый год 2016 <img class="imgCont" src="Style/images/Trydoun.png" /></a>
-                <a href="#">Туры по России <img class="imgCont" src="Style/images/Trydoun.png" /></a>
-                <a href="#">Отдых на море <img class="imgCont" src="Style/images/Trydoun.png" /></a>
-                <a href="#">Тур по Европе <img class="imgCont" src="Style/images/Trydoun.png" /></a>
-                <a href="#">Детский отдых в лагерях <img class="imgCont" src="Style/images/Trydoun.png" /></a>
-                <a href="#">Школьные групповые туры <img class="imgCont" src="Style/images/Trydoun.png" /></a>
+        <div class="menu_tour" id="menu">
+            <div class="page-width">
+                <a href="#" onclick="menuClick()">
+                    Новый год 2016
+                    <span class="icon"></span>
+                </a>
+                <a href="#" onclick="menuClick()">
+                    Туры по России
+                    <span class="icon"></span>
+                </a>
+                <a href="#" onclick="menuClick()">
+                    Отдых на море
+                    <span class="icon"></span>
+                </a>
+                <a href="#" onclick="menuClick()">
+                    Тур по Европе
+                    <span class="icon"></span>
+                </a>
+                <a href="#" onclick="menuClick()">
+                    Детский отдых в лагерях
+                    <span class="icon"></span>
+                </a>
+                <a href="#" onclick="menuClick()">
+                    Школьные групповые туры
+                    <span class="icon"></span>
+                </a>
             </div>
 
         </div>
-        <div class="breadth_content window_shade">
+        <div class="page-width window_shade" id="menu-popup">
             <div class="Count">
                 <a href="#"> <img src="Style/images/RF.png" /> Австрия</a>
                 <a href="#"><img src="Style/images/RF.png" /> Белорусь</a>
@@ -88,12 +107,54 @@
                     <a href="#" id="Atur">Туры</a>
                     <a href="#">Горный отдых</a>
                 </div>
-                <img src="Style/images/river.png" /> 
+                <img src="Style/images/river.png" />
+            </div>
+        </div>
+        <div class="banners page-width">
+            <div class="arrow left">
+                <a href="#">
+                    <img src="Style/images/laftArrou.png">
+                </a>
+            </div>
+            <div class="arrow right">
+                <a href="#">
+                    <img src="Style/images/RightArrow.png">
+                </a>
+            </div>
+
+            <div class="bann-rest">
+                <div class="three-ban">
+                    <div class="banner">
+                        <img src="Style/images/banner1.png" />
+                    </div>
+                    <div class="lable">
+                        <p><input class="modalboxask" type="button" value="Подробнее" /></p>
+                        <p>Цена от <b>15000 руб.</b></p>
+                    </div>
+                </div>
+                <div class="three-ban">
+                    <div class="banner">
+                        <img src="Style/images/banner2.png" />
+                    </div>
+                    <div class="lable">
+                        <p><input class="modalboxask" type="button" value="Подробнее" /></p>
+                        <p>Цена от <b>15000 руб.</b></p>
+                    </div>
+                </div>
+                <div class="three-ban">
+                    <div class="banner">
+                        <img src="Style/images/banner3.png" />
+                    </div>
+                    <div class="lable">
+                        <p><input class="modalboxask" type="button" value="Подробнее" /></p>
+                        <p>Цена от <b>15000 руб.</b></p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
     <div class="div_body">
-        <div class="breadth_content map">
+        <div class="page-width map">
             <div>
                 <h1>
                     Чем мы занимаемся?
@@ -104,10 +165,10 @@
                 <h2>
                     Отдых по видам года
                 </h2>
-                <a href="#"><img src="Style/images/Fertree.png" /> Новогодние праздники</a>
-                <a href="#"><img src="Style/images/KlenBlack.png" />Осенние каникулы</a>
-                <a href="#"><img src="Style/images/Wenter.png" />Зимние каникулы</a>
-                <a href="#"><img src="Style/images/FlowerBlack.png" />Летние каникулы</a>
+                <a href="#"><img src="Style/images/Fertree.png" /><span>Новогодние праздники</span></a>
+                <a href="#"><img src="Style/images/KlenBlack.png" /><span>Осенние каникулы</span></a>
+                <a href="#"><img src="Style/images/Wenter.png" /><span>Зимние каникулы</span></a>
+                <a href="#"><img src="Style/images/FlowerBlack.png" /><span>Летние каникулы</span></a>
             </div>
 
             <div class="rest holidays">
@@ -119,15 +180,25 @@
                 <h2>
                     Основные направления
                 </h2>
-                <a href="#"><img src="Style/images/flagRussia.png" />Россия</a>
-                <a href="#"><img src="Style/images/flagRussia.png" />Крым</a>
-                <a href="#"><img src="Style/images/flagSpain.png" />Испания</a>
-                <a href="#"><img src="Style/images/flagBulgaria.png" />Болгария</a>
-                <a href="#"><img id="AllFields" src="Style/images/Untitled.png" />Все направления </a>
+                <a href="#">
+                    <img src="Style/images/flagRussia.png" /><span>Россия</span>
+                </a>
+                <a href="#">
+                    <img src="Style/images/flagRussia.png" /><span>Крым</span>
+                </a>
+                <a href="#">
+                    <img src="Style/images/flagSpain.png" /><span>Испания</span>
+                </a>
+                <a href="#">
+                    <img src="Style/images/flagBulgaria.png" /><span>Болгария</span>
+                </a>
+                <a class="more" href="#">
+                    Все направления
+                </a>
             </div>
         </div>
 
-        <div class="breadth_content news">
+        <div class="page-width news">
             <div class="">
                 <h1>
                     Нам доверяют
@@ -153,89 +224,127 @@
             </div>
         </div>
         <div class="OurAdvantages ">
-            <div class="breadth_content">
+            <div class="page-width">
                 <div class="Our_dvantages">
                     <h2 class="HeadAdvantages">
                         Наши преимущества
                     </h2>
                     <ol class="list_advantages">
                         <li>
-                            <p>Вы связались с нами сразу же после завершения бронирования и предоставили всю информацию <br /> о другом вареанте с точно указанной ценой и ссылкой на сайт с предложением.</p>
+                            <p>Вы связались с нами сразу же <b>после завершения бронирования</b> и предоставили всю информацию <br /> о другом вареанте с точно <b>указанной ценой</b> и ссылкой на сайт с предложением.</p>
                         </li>
                         <li>
-                            <p>Вы связались с нами сразу же после завершения бронирования и предоставили всю информацию <br /> о другом вареанте с точно указанной ценой и ссылкой на сайт с предложением.</p>
+                            <p>Другой вариант все еще доступен для онлайн бронирования в момент, когда мы проверяем данную <br /> информацию. Низкая цена распространется на вариант с условиями бронирования, аналогичными <br /> бронированию с booing.com</p>
                         </li>
                         <li>
-                            <p>Вы связались с нами сразу же после завершения бронирования и предоставили всю информацию <br /> о другом вареанте с точно указанной ценой и ссылкой на сайт с предложением.</p>
+                            <p>Вы связались с нами сразу же после завершения бронирования и предоставили всю информацию <br /> о другом варианте с точно указанной ценой и ссылкой на сайт с предложением. </p>
                         </li>
                         <li>
-                            <p>Вы связались с нами сразу же после завершения бронирования и предоставили всю информацию <br /> о другом вареанте с точно указанной ценой и ссылкой на сайт с предложением.</p>
+                            <p>Другой вариант все еще доступен для онлайн бронирования в момент, когда мы проверяем данную <br /> информацию. Низкая цена распространется на вариант с условиями бронирования, аналогичными <br /> бронированию с booing.com</p>
                         </li>
                         <li>
-                            <p>Вы связались с нами сразу же после завершения бронирования и предоставили всю информацию <br /> о другом вареанте с точно указанной ценой и ссылкой на сайт с предложением.</p>
+                            <p>Низкая цена распространется на вариант с условиями бронирования, аналогичными бронированию<br /> с booing.com. Другой вариант все еще доступен для онлайн бронирования.  </p>
                         </li>
                     </ol>
                 </div>
                 <div class="Window_news">
-                    <img class="wave_left" src="Style/images/Redhead_line.png" />
-                    <h2>Новости</h2>
-                    <img class="wave_right" src="Style/images/Redhead_line.png" />
-
-                    <p>25 ноября 2015</p>
-                    <a href="#">Лион назван привлекательным для туристов городом Франции</a>
-
-                    <p>25 ноября 2015</p>
-                    <a href="#">Лион назван привлекательным для туристов городом Франции</a>
-
-                    <p>25 ноября 2015</p>
-                    <a href="#">Лион назван привлекательным для туристов городом Франции</a>
-                    <a class="all_news_link" href="#"><img id="AllFields" src="Style/images/Untitled.png">Все направления</a>
+                    <h2>
+                        <span> Новости</span>
+                    </h2>
+                    <div>
+                        <p>25 ноября 2015</p>
+                        <a href="#">Лион назван привлекательным для туристов городом Франции</a>
+                    </div>
+                    <div>
+                        <p>25 ноября 2015</p>
+                        <a href="#">Лион назван привлекательным для туристов городом Франции</a>
+                    </div>
+                    <div>
+                        <p>25 ноября 2015</p>
+                        <a href="#">Лион назван привлекательным для туристов городом Франции</a>
+                    </div>
+                    <a class="more" href="#">
+                        Все направления
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="Photo_report">
-            <div class="breadth_content">
+        <div class="Photo_report page-width">
+            <div>
                 <h1>Фотоотчет</h1>
                 <img src="Style/images/Redhead_line.png">
-                <div class="foto">
-                    <div class="laftArrow ArrowFotoL">
-                        <img src="Style/images/laftArrou.png">
+            </div>
+            <div class="arrow left">
+                <a href="#">
+                    <img src="Style/images/laftArrou.png">
+                </a>
+            </div>
+            <div class="arrow right">
+                <a href="#">
+                    <img src="Style/images/RightArrow.png">
+                </a>
+            </div>
+            <div class="images">
+                <div class="col left">
+                    <div class="big">
+                        <img src="Style/images/Img1.png" class="big" />
+                        <div class="resting-place">Россия, Казань</div>
                     </div>
-                    <div class="three_photos">
-                        <img src="Style/images/Img1.png">
+                    <div class="">
                         <img src="Style/images/Img2.png">
-                        <img src="Style/images/Img3.png">
+                        <div class="resting-place">Россия, Казань</div>
                     </div>
-                    <div class="six_photos">
-                        <img src="Style/images/Img4.png">
-                        <img src="Style/images/Img5.png">
+                    <div class="">
+                        <img src="Style/images/Img3.png" />
+                        <div class="resting-place">Россия, Казань</div>
+                    </div>
+                </div>
+                <div class="col right">
+                    <div class="">
                         <img src="Style/images/Img6.png">
+                        <div class="resting-place">Россия, Казань</div>
                     </div>
-                    <div class="three_photos">
-                        <img src="Style/images/Img7.png">
-                        <img src="Style/images/Img8.png">
-                        <img src="Style/images/Img9.png">
+                    <div class="">
+                        <img src="Style/images/Img7.png" />
+                        <div class="resting-place">Россия, Казань</div>
                     </div>
-                    <div class="RightArrow ArrowFotoR">
-                        <img src="Style/images/RightArrow.png">
+                    <div class="big">
+                        <img src="Style/images/Img9.png" class="big" />
+                        <div class="resting-place">Россия, Казань</div>
                     </div>
                 </div>
-                <div class="Children_rest">
-                    <div class="Children_rest_cont">
-                        <img src="Style/images/ChildrenHolidaySurge.png" />
-                        <div class="crimeaRest">
-                            Детский отдых в Крыму!
-                        </div>
-                        <a href="#">Узнать подробнее</a>
+                <div class="col center">
+                    <div class="">
+                        <img src="Style/images/Img4.png" />
+                        <div class="resting-place">Россия, Казань</div>
                     </div>
-                    <img src="Style/images/Children_rest.png" />
+                    <div class="">
+                        <img src="Style/images/Img5.png" />
+                        <div class="resting-place">Россия, Казань</div>
+                    </div>
+                    <div class="">
+                        <img src="Style/images/Img8.png" />
+                        <div class="resting-place">Россия, Казань</div>
+                    </div>
                 </div>
-
             </div>
         </div>
+        <div class="Children_rest">
+            <div class="Children_rest_cont">
+                <img src="Style/images/ChildrenHolidaySurge.png" />
+                <div class="crimeaRest">
+                    Детский отдых в Крыму!
+                </div>
+                <a href="#">Узнать подробнее</a>
+            </div>
+            <img src="Style/images/Children_rest.png" />
+        </div>
+
+    </div>
+    </div>
     </div>
     <div class="div_body futer">
-        <div class="fut">
+        <div class="footer">
             <div class="Countries">
                 <!--class="cuntry"-->
                 <p class="PName">Страны</p>
@@ -247,7 +356,6 @@
                 <a href="#">Белорусь</a>
                 <a href="#">Все страны</a>
             </div>
-
             <div class="Bestsellers">
                 <p class="PName">Хиты продаж</p>
                 <a href="#">Великий Устюг</a>
@@ -255,12 +363,10 @@
                 <a href="#">Отдых в Крыму</a>
                 <a href="#">Туры в Казань</a>
             </div>
-
-
             <div class="SocialNetwork">
                 <p class="PName">Давайте с нами дружить</p>
                 <p>Подписаться на новости статьи акции</p>
-                <input type="text" value="Ваш E-mail" onblur="if (this.value == '') this.value = 'Ваш E-mail';" onfocus="    if (this.value == 'Ваш E-mail') this.value = '';" class="inputFuter">
+                <input type="text" placeholder="Ваш Email" class="inputFuter">
                 <input class="modalboxask" type="button" value="Подписаться">
                 <p class="PName">Мы в соц.сетях</p>
                 <img src="Style/images/U1.png" />
@@ -271,25 +377,39 @@
             <div class="communication">
                 <p class="PName">Связаться с нами</p>
                 <div class="PhoneP futerbloc">
-                    <img src="Style/images/BlackPhone.png" /><span>+7 (964) 456-56-74</span><p>10:00-18:00 Без выходных</p>
-                    <a href="#">Перезвонить нам</a>
+                    <span class="imgbloc phone">
+                        <!--<img src="Style/images/BlackPhone.png" />-->
+                        +7 (964) 456-56-74
+                    </span>
+                    <div class="daysWeek">10:00-18:00 Без выходных</div>
+                    <div class="connect-with-us">
+                        <a href="#">Перезвонить нам</a>
+                    </div>
                 </div>
                 <div class="futerbloc">
-                    <img src="Style/images/Mail.png" /><span>+7 (964) 456-56-74</span>
-                    <a href="#">Отправить сообщение</a>
+                    <span class="imgbloc email">
+                        <!--<img src="Style/images/Mail.png" />-->
+                        orbita-art@mail.ru
+                    </span>
+                    <div class="connect-with-us">
+                        <a href="#">Отправить сообщение</a>
+                    </div>
                 </div>
-                <div class="futerbloc futerbloc_width">
-                    <img src="Style/images/Adrop.png" /><span>м. Автозаводская, д.9, оф. 10А</span>
-                    <a href="#">Где мы на карте</a>
+                <div class="futerbloc futerbloc_width ">
+                    <span class="imgbloc address">
+                        <!--<img src="Style/images/Adrop.png" />-->
+                        м. Автозаводская, д.9, оф. 10А
+                    </span>
+                    <div class="connect-with-us"><a href="#">Где мы на карте</a></div>
                 </div>
             </div>
         </div>
     </div>
     <div class="endblok">
-        <div class="breadth_content endblok">
+        <div class="page-width endblok">
             <span>© Туроператор по детскому и семейному отдыху "Орбита" 2003-2015ю. Копирование материалов с сайта допускается только разрешении администратора</span>
         </div>
     </div>
-    
+
 </body>
 </html>
